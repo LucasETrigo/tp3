@@ -1,0 +1,28 @@
+[2022-11-14T16:01:42.527] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: The requested resource /2010-04-01/Accounts/ACbc942e1c7babde758f9c982c007ee6ec/Messages.json was not found
+    at success (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:835:31)
+    at Fulfilled.Fulfilled_dispatch [as dispatch] (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\asap\raw.js:50:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2022-11-14T16:01:43.550] [ERROR] default - ERROR AL ENVIAR SMS new cart RestException [Error]: The requested resource /2010-04-01/Accounts/ACbc942e1c7babde758f9c982c007ee6ec/Messages.json was not found
+    at success (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:835:31)
+    at Fulfilled.Fulfilled_dispatch [as dispatch] (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\Lucas\Desktop\BACKEND DESAFIOS\TP Tercer Entrega (18)\node_modules\asap\raw.js:50:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
